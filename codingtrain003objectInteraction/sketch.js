@@ -3,7 +3,7 @@ let bubbles = [];
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	for (let i = 0; i < 2; i++) {
-		bubbles[i] = new Bubbles(random(width), random(height));
+		bubbles[i] = new Bubble(random(width), random(height));
 	}
 }
 
